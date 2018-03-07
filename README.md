@@ -1,3 +1,7 @@
+# Next gen OSLC build & release system
+
+[![](https://img.shields.io/badge/discuss%20on-zulip-1E8F54.svg)](https://oslc.zulipchat.com/#narrow/stream/114268-github/topic/lyo-releng)
+
 This is the script to assist with the release engineering for Eclipse Lyo
 project. It is intended to be invoked manually by the developer within the
 Jenkins environment.
