@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.eclipse.lyo</groupId>
+	<artifactId>lyo-uber-root</artifactId>
+	<version>2.4.0.quweda-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+<!--
+Usage:
+  mvn versions:set -DnewVersion=2.4.0.quweda-SNAPSHOT -DoldVersion="*" -DgroupId="*" -DartifactId="*"
+More info here http://www.mojohaus.org/versions-maven-plugin/examples/setaggregator.html
+-->
+
+	<modules>
+		<module>core/org.eclipse.lyo.oslc4j.build</module>
+		<module>client/org.eclipse.lyo.client.java</module>
+		<module>server/org.eclipse.lyo.server.releng</module>
+		<module>store/src</module>
+		<module>validation</module>
+		<module>trs-server</module>
+		<module>trs-client</module>
+		<!-- <module>tools</module> -->
+		<!-- <module>testsuite/org.eclipse.lyo.testsuite.build</module> -->
+		<!-- <module>ldp/org.eclipse.lyo.ldp.build</module> -->
+	</modules>
+</project>
