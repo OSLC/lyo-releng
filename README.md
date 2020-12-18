@@ -1,7 +1,8 @@
-# Next gen OSLC build & release system
+# The project is archived, Lyo is now [a monorepo](https://github.com/eclipse/lyo)
 
-[![Discourse status](https://img.shields.io/discourse/https/meta.discourse.org/status.svg)](https://forum.open-services.net/)
-[![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/OSLC/chat)
+---
+
+# Next gen OSLC build & release system
 
 This is the script to assist with the release engineering for Eclipse Lyo
 project. It is intended to be invoked manually by the developer within the
